@@ -9,6 +9,13 @@
 - **A（行动）**：先用 Python 验证接口流程，再以 Kotlin + Material Components 实现 Android 应用；接入扫码、最近设备导入、余额查询、设备状态检查，以及登录失效后的自动重登重试，并配置 GitHub Actions 构建。
 - **R（成果）**：实现从登录、添加设备到一键启动用水的完整客户端流程，支持设备状态刷新、滑动删除与撤销；保留 Python 原型和命令行工具，方便调试与维护。暂无量化效率或用户规模数据。
 
+## 实机截图
+
+| 主页 | 设置页 |
+| :---: | :---: |
+| <img src="docs/images/home.png" alt="主页：余额、设备状态与一键开水" width="300"> | <img src="docs/images/settings.png" alt="设置页：账号配置与登录管理" width="300"> |
+| 查看余额与饮水豆，添加设备、刷新状态并一键启动用水。 | 管理账号配置、自动进入主页选项，以及清除令牌和退出登录。 |
+
 ## 技术栈
 
 Kotlin · Android ViewBinding · Coroutines · OkHttp · Gson · ZXing · Python 标准库
@@ -31,7 +38,7 @@ APK 输出：`android-app/app/build/outputs/apk/debug/app-debug.apk`。也可通
 android-app/   Android 主应用
 app/           Python Tkinter 桌面原型
 tools/         Python 命令行调试工具
-docs/          云端构建说明
+docs/          云端构建说明与实机截图
 .github/       GitHub Actions 工作流
 build.ps1      Windows 构建脚本
 ```
