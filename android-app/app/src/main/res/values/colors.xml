@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景 -->
+    <color name="background">#FFFAF6</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_elevated">#FFFFFFFF</color>
+    <color name="card_background">#FFFFFFFF</color>
+
+    <!-- 主色：温暖橙 -->
+    <color name="primary">#FFFF6D00</color>
+    <color name="primary_dark">#FFE65100</color>
+    <color name="primary_light">#FFFFAB40</color>
+    <color name="primary_container">#FFFFF3E0</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <!-- 描边 -->
+    <color name="card_stroke">#FFF0E6DC</color>
+    <color name="divider">#FFF0E6DC</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#FF1E293B</color>
+    <color name="text_secondary">#FF64748B</color>
+    <color name="text_hint">#FF94A3B8</color>
+    <color name="text_accent">#FFFF6D00</color>
+
+    <!-- 状态色 -->
+    <color name="status_online">#FF16A34A</color>
+    <color name="status_online_bg">#FFDCFCE7</color>
+    <color name="status_offline">#FF94A3B8</color>
+    <color name="status_offline_bg">#FFF1F5F9</color>
+    <color name="status_inuse">#FFD97706</color>
+    <color name="status_inuse_bg">#FFFEF3C7</color>
+    <color name="status_mine">#FF2563EB</color>
+    <color name="status_mine_bg">#FFDBEAFE</color>
+    <color name="status_error">#FFDC2626</color>
+    <color name="status_error_bg">#FFFEE2E2</color>
+
+    <!-- 楼层标签 -->
+    <color name="floor_badge_bg">#FFFFF3E0</color>
+    <color name="floor_badge_number">#FFFF6D00</color>
+    <color name="floor_badge_label">#FF94A3B8</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Legacy compat -->
+    <color name="purple_500">#FFFF6D00</color>
+    <color name="purple_700">#FFE65100</color>
+</resources>

@@ -1,0 +1,19 @@
+workflows:
+  android-debug:
+    name: Android Debug APK
+    instance_type: linux_x2
+    max_build_duration: 30
+    working_directory: android-app
+    environment:
+      java: 17
+    scripts:
+      - name: Accept licenses and install Android SDK packages
+        script: |
+          yes | sdkmanager --licenses >/dev/null
+          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+      - name: Build debug APK
+        script: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk

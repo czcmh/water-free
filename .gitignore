@@ -1,0 +1,39 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+login.json
+water_app_config.json
+local.properties
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Local SDKs, downloads and reverse-engineering artifacts
+.downloads/
+.build-tools/
+.android-sdk/
+.tmp-*
+*.apk
+*.aab
+*.zip
+*.jar
+!android-app/gradle/wrapper/gradle-wrapper.jar
+
+# Historical research notes contain real account/device data; local only
+/docs/*.md
+!/docs/cloud-build.md
+
+# Build, IDE and Python caches
+.gradle/
+build/
+.idea/
+*.iml
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
